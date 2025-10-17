@@ -1,0 +1,8 @@
+tts_venv/
+# Ignore large model downloads and generated audio files
+# The model weights are often 2GB+ and should not be tracked by git
+/home/ben/.local/share/tts/
+*.wav
+*.mp3
+*.ogg
+api_output.wav
