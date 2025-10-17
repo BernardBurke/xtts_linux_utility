@@ -8,7 +8,7 @@ from TTS.api import TTS
 # Default model: XTTS-v2 (Requires speaker_wav)
 DEFAULT_MODEL = "tts_models/multilingual/multi-dataset/xtts_v2"
 # Default speaker file: Use the clean, local file you generated
-DEFAULT_SPEAKER_WAV = "/tmp/safe_reference.wav" 
+DEFAULT_SPEAKER_WAV = "/home/ben/safe_reference.wav" 
 DEFAULT_LANGUAGE = "en"
 DEFAULT_DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
